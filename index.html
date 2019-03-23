@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luis C.</title>
+  <link rel="stylesheet" type="text/css" href="./normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+
+  <style type="text/css">
+    .container {
+      height: 100vh;
+      width: 100%;
+      background-color: #4bc57d;
+    }
+
+    .center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 900px;
+      height: 630px;
+      display: flex;
+      vertical-align: center;
+      align-items: center;
+      color: #f1f1f1;
+    }
+    .hello {
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 90px;
+      width: 50%;
+      text-align: center;
+    }
+    .hello .photo {
+      margin: 20px;
+      width: 200px;
+    }
+    .hello .social-links {
+      display: flex;
+      vertical-align: middle;
+      justify-content: space-evenly;
+    }
+    .hello .social-links a:link{
+      font-size: 25px;  
+      color: #de4242;
+    }
+    .messages {
+      margin-left: 10px;
+      width: 48%;
+      font-family: 'Economica', sans-serif;
+      font-size: 26px;
+      background: #f1f1f1;
+      color: #0a0a0a;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
+    }
+    .presentation {
+      line-height: 38px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="center">
+      <div class="hello">
+        <div class="container-pre">
+          <span>
+            Hola!
+            <br>
+            Soy Luis C.
+          </span>
+        </div>
+        <div class="container-img">
+          <img class="photo" src="./perrito.png">
+        </div>
+        <div class="social-links">
+          <a href="http://github.com/f1729">Github</a>
+          <a href="http://github.com/f1729">Twitter</a>
+          <a href="http://github.com/f1729">Mastodon</a>
+        </div>
+      </div>
+      <div class="messages">
+        <div class="corner"></div>
+        <div class="content">
+          <span class="presentation">
+            Hay 3 palabras con las que puedo describirme:
+            Futurista, Desarrollador, Cantante.
+            Pienso profundamente acerca de nuestro avance tecnológico y como este influye a nuestra sociedad, conjuntamente construyo la tecnología que logra este cambio en el area de software; cuando me harto de todo esto me pongo a cantar, es uno de mis pasatiempos favoritos.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
